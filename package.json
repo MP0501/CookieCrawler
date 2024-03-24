@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "csv": "^6.3.8",
+    "express": "^4.19.1",
+    "puppeteer": "^22.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
