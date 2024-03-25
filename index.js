@@ -62,6 +62,7 @@ app.get('/get-cookies', async (req, res) => {
         })
         res.json({ cookies: output });
       } catch (error) {
+        console.error(error)
         res.status(500).json({ message: 'Error retrieving cookies' });
 
       }
